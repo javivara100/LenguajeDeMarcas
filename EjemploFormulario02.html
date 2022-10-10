@@ -1,0 +1,34 @@
+<DOCTYPE! html>
+<html lang="es">
+  <head>
+    <title>Ejemplo de Formulario 2.</title>
+  </head>
+  <body>
+    <h1>Ejercicios de HTML. Formulario 2.</h1>
+    <br>
+    <form action="registro.php" method="get">
+      <table>
+        <caption><strong>Formulario de Registro</strong></caption>
+        <tr>
+          <td><label="nombre">Usuario</label></td>
+          <td><input type="text" name="usuario" max="50" maxlength="50"></td>
+        </tr>
+        <tr>
+          <td><label="apellidos">Apellidos</label></td>
+          <td><input type="text" name="apellidos" max="50" maxlength="50"></td>
+        </tr>
+        <tr>
+          <td><label="sexo">Sexo</label></td>
+          <td>
+          <input type="radio" name="sexo">Hombre
+          <input type="radio" name="Sexo">Mujer
+          </td>
+        </tr>
+        <tr>
+          <td><label="email">Correo Electrónico</label></td>
+          <td><input type="mail" name="email" max="50" maxlength="50"></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
