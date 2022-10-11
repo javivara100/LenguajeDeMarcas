@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Seleccionar fichero...</title>
+  </head>
+  <body>
+    <h1>Seleccione su fichero</h1>
+    <form action="registro.php" method="post">
+      <table>
+        <tr>
+          <td><label for="Archivo">Fichero</label></td>
+          <td><input type="file" name="Archivo" enctype ="multipart/form-data" ></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
